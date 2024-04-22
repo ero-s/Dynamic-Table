@@ -42,11 +42,18 @@ form {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  grid-template-columns: 1fr 1fr; /* Default layout: 2 columns */
 
-  
+  /* Responsive layout adjustments */
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: 1fr; /* Change to 1 column when the screen width is 768px or less */
+  }
+
+  /* Add more media queries for finer adjustments as needed */
 }
+
+
 
 .grid-item {
   background-color: rgba(96, 180, 248, 0.402);
@@ -118,7 +125,7 @@ button:active{
 
 table {
   margin: 0 auto;
-  width: 1800px;
+  width: 90%;
   border-collapse: collapse;
   border: solid 1px;
   border-radius: 100px;
@@ -162,6 +169,7 @@ h2{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 200%;
   color: #bfbaff;
+  margin: 1 auto;
 }
 
 #birthday{
@@ -204,7 +212,7 @@ input[type="radio"]:checked {
 }
 
 #tabletitle{
-  margin-top: 150px;
+  margin-top: 110px;
 }
 
 .error-message {
