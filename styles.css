@@ -1,0 +1,214 @@
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 10px;
+  background-color: rgba(149, 207, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  margin: -10px;
+  padding: 10px;
+  text-align: center;
+  width: 99.9%;
+  color:#c3a5ff;
+  text-shadow: 0 0 10px #0a0a0a;
+}
+
+p {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 100%;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: -40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 900px;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+
+  
+}
+
+.grid-item {
+  background-color: rgba(96, 180, 248, 0.402);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+  width: 400px;
+  color: #fef7eb;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
+
+}
+
+button{
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: solid 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35); 
+  background-color: rgb(250, 251, 255);
+  transition: all 0.3s ease-in;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #7261e4;
+}
+
+button:hover{
+  background-color: #c2ddff;
+  border-radius: 40px;
+  height: 60px;
+  width: 170px;
+}
+
+button:active{
+  background-color:#ffffff;
+}
+
+.textbox{
+  width: 200px;
+  height: 10px;
+  margin-left: 3px;
+  border-radius: 10px;
+  border: solid 1px #ac9eec;
+  background-color: #fef7eb;
+  padding: 10px;
+  transition: all 0.3s ease-in;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.error{
+  border: solid 2px rgb(0, 64, 255);
+}
+
+.textbox:hover{
+  width: 250px;
+  height: 15px;
+}
+
+.textbox:active{
+  background-origin: padding-box;
+}
+
+table {
+  margin: 0 auto;
+  width: 1800px;
+  border-collapse: collapse;
+  border: solid 1px;
+  border-radius: 100px;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #1b37a9;
+}
+
+td, th {
+  height: 25px;
+  text-align: center;
+  border: solid 1px;
+  padding: 10px;
+}
+
+tr{
+  background-color: #f3f4f7;
+  width: 5000px;
+}
+
+th {
+  background-color: #92b3ffe5;
+}
+
+tr:first-child th {
+  border-top: none; 
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:nth-child(odd) {
+  background-color: #92b3ffe5; 
+}
+
+
+h2{
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 200%;
+  color: #bfbaff;
+}
+
+#birthday{
+  width: 200px;
+  height: 10px;
+  margin-left: 3px;
+  border-radius: 10px;
+  background-color: #fef7eb;
+  border-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+#birthday:hover{
+  width: 250px;
+  height: 15px;
+  
+}
+
+input[type="radio"] {
+  transition: all 0.3s ease-in-out;
+  height: 15px;
+  width: 15px;
+  border: solid 5px green;
+}
+
+input[type="radio"]:hover {
+  height: 20px;
+  width: 20px;
+}
+
+input[type="radio"]:checked {
+  accent-color: #003cff;
+}
+
+.genderErrors{
+  text-emphasis-color: red;
+}
+
+#tabletitle{
+  margin-top: 150px;
+}
+
+.error-message {
+  color: rgb(216, 232, 255);
+  text-shadow: 0 50 10px rgb(38, 47, 79);
+  font-size: 15px;
+}
